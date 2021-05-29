@@ -10,7 +10,13 @@ $TTL    604800
 
 kb-svc.kb.lan.          IN      A       10.20.30.1
 
-; Control Plane Nodes
+; control plane
+kb-cp.lab.kb.lan.         IN      A      10.20.30.201
+
+; api server
+kb-api.lab.kb.lan.         IN      A      10.20.30.201
+
+; All nodes
 kb01.lab.kb.lan.         IN      A      10.20.30.201
 kb02.lab.kb.lan.         IN      A      10.20.30.202
 kb03.lab.kb.lan.         IN      A      10.20.30.203
